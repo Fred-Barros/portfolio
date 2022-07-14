@@ -1,0 +1,45 @@
+:root {
+  --dark-gray: #CCCCCCS;
+  --medium-gray: #4a3f35;
+  --light-orange: #daa520;
+  --black: #000000;
+  --dark-orange: #ff4301;
+  --whitish: #f5f5f5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--dark-gray);
+  color: var(--whitish);
+  font-family: "Raleway";
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  padding: 2px ;
+  text-decoration-color: var(--black);
+}

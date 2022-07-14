@@ -1,0 +1,38 @@
+.skills {
+    margin: 1rem;
+}
+
+.skills__title {
+    color: black;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills__box {
+    background-color: var(--medium-gray);
+    display: flex
+    align-items: center;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 39%;
+}
+
+.skills__box ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills__img img {
+    width: 30%;
+}
+
+.skills__name {
+    margin-top: 8px;
+}
